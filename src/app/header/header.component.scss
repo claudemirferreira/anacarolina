@@ -1,0 +1,33 @@
+@use '@angular/material' as mat;
+
+@include mat.core();
+
+  .header {
+  }  
+
+nav {
+    background-color: #333; /* Cor de fundo da barra de navegação */
+    padding: 10px; /* Espaçamento interno */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove marcadores de lista */
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block; /* Exibe os itens de navegação em linha */
+    margin-right: 20px; /* Espaçamento entre os itens de navegação */
+  }
+  
+  a {
+    text-decoration: none; /* Remove a decoração de link padrão */
+    color: white; /* Cor do texto dos links */
+    font-weight: bold; /* Texto em negrito */
+  }
+  
+  a:hover {
+    color: #ff8c00; /* Cor do texto dos links ao passar o mouse */
+  }
+    
