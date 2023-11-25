@@ -1,12 +1,7 @@
 @use '@angular/material' as mat;
 
-@include mat.core();
-
-  .header {
-  }  
 
 nav {
-    background-color: #333; /* Cor de fundo da barra de navegação */
     padding: 10px; /* Espaçamento interno */
   }
   
@@ -28,6 +23,6 @@ nav {
   }
   
   a:hover {
-    color: #ff8c00; /* Cor do texto dos links ao passar o mouse */
+    color: #0c0701; /* Cor do texto dos links ao passar o mouse */
   }
     
